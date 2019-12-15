@@ -1,7 +1,6 @@
 ﻿using Moq;
 using DAL;
 using Xunit;
-using System;
 using Entities;
 using System.Collections.Generic;
 using BLL.Services.Implementations;
@@ -28,25 +27,6 @@ namespace BLL.Test
             mockRepository.Verify(x => x.Get(It.Is<int>(y => y == 1)));
             mockRepository.Verify(x => x.Update(It.Is<Product>(y => y.CategoryId == 5),
                 It.Is<int>(z => z == product.Id)));
-        }
-
-        [Fact]
-        public void AddToCategory_ProductPassed_ExeptionThrown()
-        {
-            // Arrange
-            Product product = new Product { Id = 1, Name = "Product", Cost = 0 };
-
-            var mockRepository = new Mock<IRepository<Product>>();
-            mockRepository.Setup(x => x.Get(It.IsAny<int>())).Returns((Product)null);
-            mockRepository.Setup(y => y.Update(It.IsAny<Product>(), It.IsAny<int>()));
-
-            // Act
-            var service = new ProductService(mockRepository.Object);
-
-            // Assert
-            Assert.Throws<Exception>(() => service.AddToCategory(product.Id, 5));
-            mockRepository.Verify(x => x.Get(It.Is<int>(y => y == 1)));
-            mockRepository.Verify(x => x.Update(It.IsAny<Product>(), It.IsAny<int>()), Times.Never);
         }
 
         [Fact]

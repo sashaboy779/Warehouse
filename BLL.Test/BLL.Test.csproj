@@ -79,6 +79,7 @@
   <ItemGroup>
     <Compile Include="CategoryServiceTest.cs" />
     <Compile Include="ProductServiceTest.cs" />
+    <Compile Include="SearchTest.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="ServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

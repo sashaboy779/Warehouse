@@ -47,7 +47,6 @@ namespace BLL.Services.Implementations
             try
             {
                 var product = Repository.Get(productId);
-                CheckAgainstNull(product);
 
                 if (product.CategoryId != null)
                 {
@@ -74,7 +73,6 @@ namespace BLL.Services.Implementations
             try
             {
                 var product = Repository.Get(productId);
-                CheckAgainstNull(product);
 
                 product.Category = null;
                 product.CategoryId = null;
@@ -83,14 +81,6 @@ namespace BLL.Services.Implementations
             catch (Exception)
             {
                 throw;
-            }
-        }
-
-        private void CheckAgainstNull(Product product)
-        {
-            if (product == null)
-            {
-                throw new Exception(ExceptionMessages.EmptyProduct);
             }
         }
     }

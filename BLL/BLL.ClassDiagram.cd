@@ -11,7 +11,7 @@
   <Class Name="BLL.Services.Implementations.ProductService">
     <Position X="5.75" Y="8.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAMAAAAAAAAAIAAAAAAAAAARAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAMAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Services\Implementations\ProductService.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
