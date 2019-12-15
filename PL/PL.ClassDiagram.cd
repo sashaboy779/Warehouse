@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PL.Helpers.ConsoleDisplay">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Helpers\ConsoleDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PL.Helpers.ResourceConvert">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Helpers\ResourceConvert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PL.Helpers.UserValue">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\UserValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PL.Menu.CategorySubmenu">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIACAAAAAAABAAAAAAAAAgAAAEAAAAAAAAA=</HashCode>
+      <FileName>Menu\Implementations\CategorySubmenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PL.Menu.MainMenu" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAAAAAAACBAAAAAAAAAgAAACAIAAAAAAA=</HashCode>
+      <FileName>Menu\Implementations\MainMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PL.Menu.ProductSubmenu">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIQAAAAAAAABAgAAAAAAAgAAAEAAAAAAAAA=</HashCode>
+      <FileName>Menu\Implementations\ProductSubmenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PL.Menu.SearchMenu" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAABAAAAAAAAAgAAACAAAAAAAAA=</HashCode>
+      <FileName>Menu\Implementations\SearchMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PL.Menu.Submenu&lt;T&gt;">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\Implementations\Submenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PL.Menu.SupplierSubmenu">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAABAAAAAAAAAgAAAEIAAAAAAAA=</HashCode>
+      <FileName>Menu\Implementations\SupplierSubmenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="PL.Menu.Interfaces.IMenu">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\Interfaces\IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PL.Menu.Interfaces.ISubmenu&lt;T&gt;">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\Interfaces\ISubmenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Calibri" Size="10" />
+</ClassDiagram>

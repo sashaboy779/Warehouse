@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.Services.Implementations.CategoryService">
+    <Position X="1" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Services\Implementations\CategoryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Services.Implementations.ProductService">
+    <Position X="5.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAAIAAAAAAAAAARAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Implementations\ProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Services.Implementations.Search">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAQAAAAAACAAQAEAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Services\Implementations\Search.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Services.Implementations.Service&lt;TEntity&gt;">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAIAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Services\Implementations\Service.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Services.Implementations.SupplierService">
+    <Position X="3.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Implementations\SupplierService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BLL.Services.Interfaces.ICategoryService">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ICategoryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BLL.Services.Interfaces.IProductService">
+    <Position X="5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BLL.Services.Interfaces.ISearch">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ISearch.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BLL.Services.Interfaces.IService&lt;TEntity&gt;">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Services\Interfaces\IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BLL.Services.Interfaces.ISupplierService">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ISupplierService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BLL.SortEnums.ProductSort">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>SortEnums\ProductSort.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BLL.SortEnums.SupplierSort">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>SortEnums\SupplierSort.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Calibri" Size="10" />
+</ClassDiagram>

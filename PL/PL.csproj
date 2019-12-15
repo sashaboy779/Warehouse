@@ -68,7 +68,7 @@
     <Compile Include="Menu\Implementations\CategorySubmenu.cs" />
     <Compile Include="Menu\Implementations\MainMenu.cs" />
     <Compile Include="Menu\Implementations\ProductSubmenu.cs" />
-    <Compile Include="Menu\Implementations\SearchSubmenu.cs" />
+    <Compile Include="Menu\Implementations\SearchMenu.cs" />
     <Compile Include="Menu\Implementations\Submenu.cs" />
     <Compile Include="Menu\Implementations\SupplierSubmenu.cs" />
     <Compile Include="Menu\Interfaces\IMenu.cs" />
@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="PL.ClassDiagram.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

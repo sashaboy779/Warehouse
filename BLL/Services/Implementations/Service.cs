@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace BLL.Services.Implementations
 {
-    public class Service<TEntity> : IService<TEntity> where TEntity : class
+    public abstract class Service<TEntity> : IService<TEntity> where TEntity : class
     {
         protected IRepository<TEntity> Repository;
 

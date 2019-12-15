@@ -8,14 +8,14 @@ using System.Collections.Generic;
 
 namespace PL.Menu
 {
-    public class SearchSubmenu : IMenu
+    public class SearchMenu : IMenu
     {
         public List<string> MenuOptions { get; set; }
 
         private ISearch search;
         private bool continueSelect;
 
-        public SearchSubmenu(ISearch search, string confKey)
+        public SearchMenu(ISearch search, string confKey)
         {
             this.search = search;
             MenuOptions = ResourceConvert.ToList(ConfigurationManager.AppSettings[confKey]);

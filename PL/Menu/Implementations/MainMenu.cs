@@ -15,7 +15,7 @@ namespace PL.Menu
         private CategorySubmenu category;
         private ProductSubmenu product;
         private SupplierSubmenu supplier;
-        private SearchSubmenu search;
+        private SearchMenu search;
         private bool continueSelect;
 
         public MainMenu()
@@ -25,7 +25,7 @@ namespace PL.Menu
             category = new CategorySubmenu(new CategoryService(), "CategorySubmenu");
             product = new ProductSubmenu(new ProductService(), "ProductSubmenu");
             supplier = new SupplierSubmenu(new SupplierService(), "SupplierSubmenu");
-            search = new SearchSubmenu(new Search(), "SearchSubmenu");
+            search = new SearchMenu(new Search(), "SearchSubmenu");
         }
 
         public void SelectOption()

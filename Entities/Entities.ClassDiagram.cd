@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entities.Category">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entities.Product">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAoAEAAAAABQAAAAAAAAAAAAAAAAhCAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entities.Supplier">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Calibri" Size="10" />
+</ClassDiagram>

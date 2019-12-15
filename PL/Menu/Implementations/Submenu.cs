@@ -5,7 +5,7 @@ using BLL.Services.Interfaces;
 
 namespace PL.Menu
 {
-    public class Submenu<T> : ISubmenu<T> where T : class
+    public abstract class Submenu<T> : ISubmenu<T> where T : class
     {
         public void Add(IService<T> service, T entity, string successMessage)
         {
